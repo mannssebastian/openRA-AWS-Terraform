@@ -5,8 +5,8 @@
 
 
 resource "aws_instance" "openredalert_instance" {
-  ami                         = data.aws_ami.ubuntu-linux-2204.id
-  instance_type               = "t2.micro"
+  ami           = data.aws_ami.ubuntu-linux-2204.id
+  instance_type = "t2.micro"
 
   associate_public_ip_address = true
   subnet_id                   = aws_subnet.openredalert_subnet.id
