@@ -1,5 +1,5 @@
 resource "aws_vpc" "openredalert_vpc" {
-  cidr_block = "10.0.0.0/16"
+  cidr_block = var.cidr-vpc
 
   tags = {
     Name = "OpenRedAlertVPC"
@@ -8,7 +8,7 @@ resource "aws_vpc" "openredalert_vpc" {
 
 resource "aws_subnet" "openredalert_subnet" {
   vpc_id            = aws_vpc.openredalert_vpc.id
-  cidr_block        = "10.0.1.0/24"
+  cidr_block        = var.cidr-subnet
   availability_zone = "eu-central-1a"
 
   tags = {

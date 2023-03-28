@@ -17,3 +17,13 @@ variable "aws_profile" {
   type        = string
   description = "used proifle"
 }
+
+variable "cidr-vpc" {
+  type        = string
+  description = "Cidr Block of VPC"
+}
+
+variable "cidr-subnet" {
+  type        = string
+  description = "Cidr Block of Subnet"
+}
