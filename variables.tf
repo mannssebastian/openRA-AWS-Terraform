@@ -27,3 +27,8 @@ variable "cidr-subnet" {
   type        = string
   description = "Cidr Block of Subnet"
 }
+
+variable "instance-type" {
+  type        = string
+  description = "Cidr Block of Subnet"
+}
