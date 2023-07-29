@@ -7,6 +7,10 @@ redalert-server-name = "1Pexon"
 redalert-server-pwd  = "N0x3p!"
 redalert-release     = "20230225"
 
+<<<<<<< Updated upstream
 instance-type = "t3a.medium"
 
 region   = "eu-central-1"
+=======
+instance-type = "t3a.medium"
+>>>>>>> Stashed changes
