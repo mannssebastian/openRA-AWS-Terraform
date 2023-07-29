@@ -7,4 +7,6 @@ redalert-server-name = "1Pexon"
 redalert-server-pwd  = "N0x3p!"
 redalert-release     = "20230225"
 
-instance-type = "t2.medium"
+instance-type = "t3a.medium"
+
+region   = "eu-central-1"

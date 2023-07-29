@@ -30,5 +30,10 @@ variable "cidr-subnet" {
 
 variable "instance-type" {
   type        = string
-  description = "Cidr Block of Subnet"
+  description = "instance type"
+}
+
+variable "region" {
+  type    = string
+  default = "eu-central-1"
 }
